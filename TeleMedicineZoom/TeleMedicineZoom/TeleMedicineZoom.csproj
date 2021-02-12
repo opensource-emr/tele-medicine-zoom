@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\AngularZoomClient\**" />
+    <Content Remove="wwwroot\AngularZoomClient\**" />
+    <EmbeddedResource Remove="wwwroot\AngularZoomClient\**" />
+    <None Remove="wwwroot\AngularZoomClient\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\audio\incoming-msg-chime.mp3" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\audio\m-entry.mp3" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\audio\m-exit.mp3" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\audio\m-wr.mp3" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\audio\raise-hand-chime.mp3" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\de-DE.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\en-US.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\es-ES.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\fr-FR.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\it-IT.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\jp-JP.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\ko-KO.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\pt-PT.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\ru-RU.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\vi-VN.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\zh-CN.json" />
+    <Content Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\lang\zh-TW.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_audio.encode.wasm" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_js_audio_process.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_js_audio_worklet.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_js_media.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_js_media_ie.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_sharing_m.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_sharing_s.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_sharing_simd.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_video.decode.wasm" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_video.mt.wasm" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_video.simd.wasm" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_video_m.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_video_s.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\av\6290_video_simd.min.js" />
+    <None Include="wwwroot\distfinal\node_modules\%40zoomus\websdk\dist\lib\webim.min.js" />
+  </ItemGroup>
+
+</Project>
