@@ -1,0 +1,20 @@
+#zmmtg-root {
+    width: 100% !important;
+}
+
+#wc-content {
+    width: 100% !important;
+}
+
+.join-dialog {
+    width: 100% !important;
+}
+
+.ReactModal__Overlay--after-open {
+    width: 100% !important;
+}
+
+#wc-container-right {
+    right: 0px !important;
+    z-index: 0;
+}
