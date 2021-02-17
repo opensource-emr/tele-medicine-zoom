@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-10">
+            <zoom-app *ngIf="isMeet" [userName]="userName" [role]="role">
+            </zoom-app>
+        </div>
+        <div class="col-lg-2" style="left:200px;z-index:100;">
+            <h1>Medication</h1>
+            <br>
+            <p>Prescription:-</p>
+            <div class="medicate">
+                <textarea></textarea>
+            </div>
+            <br>
+            <button class="btn btn-primary">Send</button>
+        </div>
+    </div>
+</div>
